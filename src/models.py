@@ -43,7 +43,7 @@ class People(Base):
     name = Column(String(30))
     height = Column(Integer)
     mass = Column(Integer)
-    hair_color = Column(Integer)
+    hair_color = Column(String(30))
     skin_color = Column(String(30))
     eye_color = Column(String(30))
     birth_year = Column(String(30))
